@@ -1,0 +1,11 @@
+# Ignore node_modules in all subdirectories
+**/node_modules/
+
+# Ignore build output in all subdirectories
+**/dist/
+
+# Ignore log files in all subdirectories
+**/npm-debug.log*
+
+# Ignore lock files in all subdirectories
+**/package-lock.json
