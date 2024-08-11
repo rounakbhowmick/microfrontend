@@ -14,6 +14,7 @@ module.exports = {
         // Internally its a alias name for src/index.ProductIndex will be used to fetch the file
         "./CartShow": "./src/index",
       },
+      // shared: ["faker"],
     }),
     new HtmlWebpackPlugin({
       template: "./public/index.html",
