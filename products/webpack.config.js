@@ -12,7 +12,7 @@ module.exports = {
       filename: "remoteEntry.js", // only who exposes required
       exposes: {
         // Internally its a alias name for src/index.ProductIndex will be used to fetch the file
-        "./ProductIndex": "./src/index",
+        "./ProductIndex": "./src/bootstrap",
       },
       shared: ["faker"],
     }),
